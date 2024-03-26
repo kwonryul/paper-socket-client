@@ -37,7 +37,7 @@ library
     extra-libraries:
         paper-socket-client-c
     extra-lib-dirs:
-        /home/kwonryul/dev/haskell/paper-socket-client/c/build
+        ${project_dir}c/build
 
 test-suite paper-socket-client-test
     import:           warnings
